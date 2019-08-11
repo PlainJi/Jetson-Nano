@@ -40,3 +40,7 @@ while True:
     output = F.softmax(output, dim=1).detach().cpu().numpy().flatten()
     print('%5.2f %5.2f' % (output[0], output[1]))
 
+
+
+
+
